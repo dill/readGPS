@@ -1,0 +1,16 @@
+Package: readGPS
+Maintainer: David Lawrence Miller
+License: MIT
+Title: Read GPS data from Garmin text files.
+LazyLoad: Yes
+Author: David Lawrence Miller
+Description: Read GPS data from Garmin text files.
+Version: 0.0.1
+Date: 2013/07/17
+Depends:
+    R (>3.),
+    lubridate
+Collate:
+    'plot.GPS.R'
+    'process.ll.R'
+    'read.garmintxt.R'
